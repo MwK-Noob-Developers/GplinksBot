@@ -11,10 +11,7 @@ $GP_API_KEY = $_ENV['GP_API_KEY'];
 //=========OTHERS=======//
 $START_MESSAGE = $_ENV["START_MESSAGE"] =<<<EOM
 
-<b>I'm a GPLINK Shortner Bot
+<b> എന്തിനോ വേണ്ടി തിളയ്ക്കുന്ന മറ്റൊരു ബോട്ട് 😖, ഫോർ എ.z.ആർ മൈരൻ 😹</b>
 
-Just Send Me A Long Url. I Will Give You It's Short Url.
-
-YOU CAN ALSO MAKE A BOT LIKE THIS FROM <a href="https://github.com/Benchamxd/GplinksBot/">HERE</a></b>
 EOM;
 ?>
