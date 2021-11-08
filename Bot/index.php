@@ -53,20 +53,18 @@ $short = $get['shortenedUrl'];
 if($get['shortenedUrl']){
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
-                'text'=>"<b>Thank you for using me☺
+                'text'=>"<b>ശെരി എന്നാ 😹
 
 YOUR SHORTEN URL: </b> <code>$short</code>
 
-<b>LONG URL:</b> <code>$text</code>
-
-<b>Shorten by $BOT_USERNAME</b>",
+<b>LONG URL:</b> <code>$text</code>",
    'parse_mode'=>"HTML",
 ]);
    
 }else {
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
-                'text' =>"<b>PLEASE GIVE ME A VALID URL</b>",
+                'text' =>"<b>വർക്ക്‌ ആവുന്ന ഏതേലും ലിങ്ക് താടാ മണ്ടാ</b>",
                 'parse_mode'=>"HTML",
                
 ]);
